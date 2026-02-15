@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
           <QueryProvider>
             <Toaster position="top-right" />
           <Navbar/>
-        <main className="">
+        <main className="min-h-[60vh]">
           {children}
         </main>
         <Footer/>
