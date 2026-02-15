@@ -2,7 +2,7 @@
 
 import { useProduct } from "@/app/context/ProductContext";
 import Image from "next/image";
-import { toast } from "react-hot-toast";
+import Link from "next/link";
 
 export default function CartPage() {
   const {
@@ -21,9 +21,7 @@ export default function CartPage() {
     );
   }
 
-  const handleCheckout = () => {
-    toast.success("Checkout Successful 🎉");
-  };
+ 
 
   return (
     <section className="max-w-5xl mx-auto px-4 py-16 space-y-8">
@@ -79,12 +77,12 @@ export default function CartPage() {
           Total: ${totalAmount.toFixed(2)}
         </h2>
 
-        <button
-          onClick={handleCheckout}
+        <Link
+         href='/checkout'
           className="bg-orange-500 hover:bg-orange-400 text-white px-8 py-3 rounded-md font-bold"
         >
           Checkout
-        </button>
+        </Link>
       </div>
     </section>
   );

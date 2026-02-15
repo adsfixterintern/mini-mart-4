@@ -60,7 +60,7 @@ export default function Navbar() {
             {totalItems>0 &&
               
               (<p className="absolute bottom-4 bg-orange-500 px-1  text-white rounded-full -right-1">
-                {cart.length}
+                {cart.length||0}
                 </p>
               )}
           </Link>
@@ -74,7 +74,7 @@ export default function Navbar() {
           {isOpen ? <X size={24} /> : <Menu size={24} />}
           <button className="hover:text-gray-600 transition relative">
             <ShoppingCart/>
-            <p className="absolute bottom-4 bg-orange-500 px-1  text-white rounded-full left-2 md:-right-1">{totalItems}</p>
+            <p className="absolute bottom-4 bg-orange-500 px-1  text-white rounded-full left-2 md:-right-1">{cart.length||0}</p>
           </button>
         </div>
       </div>
