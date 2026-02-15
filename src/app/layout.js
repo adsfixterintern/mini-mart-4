@@ -31,7 +31,9 @@ export default function RootLayout({ children }) {
           <QueryProvider>
             <Toaster position="top-right" />
           <Navbar/>
-        {children}
+        <main>
+          {children}
+        </main>
         <Footer/>
         </QueryProvider>
         </ProductProvider>
