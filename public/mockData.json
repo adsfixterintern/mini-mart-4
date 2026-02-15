@@ -1,0 +1,164 @@
+
+
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "description": "Over-ear noise-cancelling headphones with 30-hour battery life and deep bass sound.",
+    "price": 89.99,
+    "category": "Electronics",
+    "image": "/img1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Smart Fitness Watch",
+    "description": "Waterproof fitness tracker with heart rate monitor and sleep tracking features.",
+    "price": 59.99,
+    "category": "Fitness",
+    "image": "/img2.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Portable Power Bank 20000mAh",
+    "description": "High-capacity power bank with fast charging and dual USB ports.",
+    "price": 34.50,
+    "category": "Electronics",
+    "image": "/img3.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Gaming Mechanical Keyboard",
+    "description": "RGB backlit mechanical keyboard with blue switches for tactile feedback.",
+    "price": 74.99,
+    "category": "Computer & Accessories",
+    "image": "/img4.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Ergonomic Office Chair",
+    "description": "Adjustable office chair with lumbar support and breathable mesh back.",
+    "price": 149.99,
+    "category": "Home & Living",
+    "image": "/img5.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "4K Ultra HD Monitor 27-inch",
+    "description": "27-inch 4K monitor with IPS panel and ultra-thin bezels.",
+    "price": 299.99,
+    "category": "Computer & Accessories",
+    "image": "/img6.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Stainless Steel Water Bottle",
+    "description": "Insulated water bottle that keeps drinks cold for 24 hours or hot for 12 hours.",
+    "price": 19.99,
+    "category": "Home & Living",
+    "image": "/img7.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Wireless Charging Pad",
+    "description": "Fast wireless charger compatible with all Qi-enabled devices.",
+    "price": 24.99,
+    "category": "Electronics",
+    "image": "/img8.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Noise-Cancelling Earbuds",
+    "description": "Compact earbuds with active noise cancellation and touch controls.",
+    "price": 79.99,
+    "category": "Electronics",
+    "image": "/img9.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Smart LED Light Bulb",
+    "description": "WiFi-enabled LED bulb with customizable colors and voice control support.",
+    "price": 14.99,
+    "category": "Home & Living",
+    "image": "/img10.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Laptop Backpack",
+    "description": "Water-resistant backpack with padded laptop compartment and USB charging port.",
+    "price": 39.99,
+    "category": "Computer & Accessories",
+    "image": "/img11.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Action Camera 4K",
+    "description": "Waterproof action camera with 4K recording and wide-angle lens.",
+    "price": 119.99,
+    "category": "Electronics",
+    "image": "/img12.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Electric Toothbrush",
+    "description": "Rechargeable toothbrush with multiple cleaning modes and smart timer.",
+    "price": 49.99,
+    "category": "Personal Care",
+    "image": "/img13.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "Home Security Camera",
+    "description": "1080p WiFi security camera with night vision and motion detection alerts.",
+    "price": 69.99,
+    "category": "Home & Living",
+    "image": "/img14.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Portable Bluetooth Speaker",
+    "description": "Compact speaker with powerful sound, waterproof design, and 12-hour playtime.",
+    "price": 45.00,
+    "category": "Electronics",
+    "image": "/img15.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "Digital Kitchen Scale",
+    "description": "High-precision kitchen scale with LCD display and tare function.",
+    "price": 22.50,
+    "category": "Home & Living",
+    "image": "/img16.jpeg"
+  },
+  {
+    "id": 17,
+    "name": "Smartphone Gimbal Stabilizer",
+    "description": "3-axis handheld gimbal for smooth video recording and live streaming.",
+    "price": 99.99,
+    "category": "Electronics",
+    "image": "/img17.jpeg"
+  },
+  {
+    "id": 18,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with adjustable DPI and silent click buttons.",
+    "price": 18.99,
+    "category": "Computer & Accessories",
+    "image": "/img18.jpeg"
+  },
+  {
+    "id": 19,
+    "name": "USB-C Hub Adapter",
+    "description": "Multi-port USB-C hub with HDMI, USB 3.0, and SD card reader.",
+    "price": 29.99,
+    "category": "Computer & Accessories",
+    "image": "/img19.jpeg"
+  },
+  {
+    "id": 20,
+    "name": "Adjustable Dumbbell Set",
+    "description": "Space-saving adjustable dumbbells suitable for full-body home workouts.",
+    "price": 199.99,
+    "category": "Fitness",
+    "image": "/img20.jpeg"
+  }
+]

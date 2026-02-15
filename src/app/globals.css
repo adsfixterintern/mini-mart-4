@@ -1,0 +1,92 @@
+/* app/globals.css */
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --color-primary: #03644F;
+  --color-secondary: #E4FC24;
+  --color-accent: #013F32;
+}
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* =======================
+   🔹 TEXT COLORS
+   ======================= */
+.text-primary { color: var(--color-primary); transition: color 0.3s ease; }
+.text-secondary { color: var(--color-secondary); transition: color 0.3s ease; }
+.text-accent { color: var(--color-accent); transition: color 0.3s ease; }
+
+.hover\:text-primary:hover { color: var(--color-primary); }
+.hover\:text-secondary:hover { color: var(--color-secondary); }
+.hover\:text-accent:hover { color: var(--color-accent); }
+
+/* =======================
+   🔹 BACKGROUND COLORS
+   ======================= */
+/* Added missing base background classes */
+.bg-primary { background-color: var(--color-primary); transition: background-color 0.3s ease; }
+.bg-secondary { background-color: var(--color-secondary); transition: background-color 0.3s ease; }
+.bg-accent { background-color: var(--color-accent); transition: background-color 0.3s ease; }
+
+.hover\:bg-primary:hover { background-color: var(--color-primary); }
+.hover\:bg-secondary:hover { background-color: var(--color-secondary); }
+.hover\:bg-accent:hover { background-color: var(--color-accent); }
+
+/* =======================
+   🔹 BORDER COLORS
+   ======================= */
+.border-primary { border-color: var(--color-primary); transition: border-color 0.3s ease; }
+.border-secondary { border-color: var(--color-secondary); transition: border-color 0.3s ease; }
+.border-accent { border-color: var(--color-accent); transition: border-color 0.3s ease; }
+
+.hover\:border-primary:hover { border-color: var(--color-primary); }
+.hover\:border-secondary:hover { border-color: var(--color-secondary); }
+.hover\:border-accent:hover { border-color: var(--color-accent); }
+
+/* =======================
+   🔹 TYPOGRAPHY
+   ======================= */
+.title {
+  margin-bottom: 1rem;
+  font-weight: 800;
+  color: var(--color-accent);
+  font-size: 1.875rem;
+  line-height: 1.2;
+}
+@media (min-width: 640px) { .title { font-size: 1.875rem; } }
+@media (min-width: 768px) { .title { font-size: 2.25rem; } }
+@media (min-width: 1024px) { .title { font-size: 3rem; } }
+
+.subtitle {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+@media (min-width: 640px) { .subtitle { font-size: 1.125rem; } }
+@media (min-width: 768px) { .subtitle { font-size: 1.5rem; } }
+@media (min-width: 1024px) { .subtitle { font-size: 1.5rem; } }
+
+.description {
+  font-size: 1rem;
+  color: var(--color-accent);
+  line-height: 1.6;
+}
+@media (min-width: 640px) { .description { font-size: 1.125rem; } }
+@media (min-width: 768px) { .description { font-size: 1.25rem; } }
